@@ -1,0 +1,39 @@
+{
+  "name": "mko-custom",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "dist/amd/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaciejMisztal/mko-custom.git"
+  },
+  "keywords": [
+    "mko",
+    "knockoutjs",
+    "custom-element"
+  ],
+  "author": "Maciej Misztal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaciejMisztal/mko-custom/issues"
+  },
+  "homepage": "https://github.com/MaciejMisztal/mko-custom#readme",
+  "devDependencies": {
+    "jspm": "^0.16.15"
+  },
+  "jspm": {
+    "dependencies": {
+      "knockout": "github:knockout/knockout@^3.4.0",
+      "text": "github:systemjs/plugin-text@^0.0.4",
+      "ts": "github:frankwallis/plugin-typescript@^2.4.2"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.92",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.92",
+      "typescript": "npm:typescript@^1.7.3"
+    }
+  }
+}
