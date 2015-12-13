@@ -1,12 +1,11 @@
 System.config({
-  baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "traceur",
+  transpiler: "typescript",
   typescriptOptions: {
     "noImplicitAny": false,
     "typeCheck": false,
     "module": "system",
-    "target": "es5",
+    "target": "es6",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
@@ -16,7 +15,8 @@ System.config({
   },
   packages: {
     "src": {
-      "defaultExtension": "ts",
+      "main": "index",
+      "defaultExtension": "js",
       "meta": {
         "*.ts": {
           "loader": "ts"

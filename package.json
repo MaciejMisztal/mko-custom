@@ -1,8 +1,8 @@
 {
   "name": "mko-custom",
-  "version": "1.0.0",
+  "version": "Decotor for creating knockoutJs custom element",
   "description": "0.0.1",
-  "main": "dist/amd/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm test"
   },
@@ -24,7 +24,11 @@
   "devDependencies": {
     "jspm": "^0.16.15"
   },
+  "jspmNodeConversion": false,
   "jspm": {
+        "directories": {
+      "lib": "src"
+    },
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
       "text": "github:systemjs/plugin-text@^0.0.4",

@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "noImplicitAny": false,
     "emitDecoratorMetadata": true,
     "experimentalAsyncFunctions": true,
     "experimentalDecorators": true
   },
+  "compileOnSave": false,
+  "buildOnSave": false,
   "exclude": [
     "node_modules"
-    ]
+  ]
 }
