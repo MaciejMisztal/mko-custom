@@ -1,7 +1,7 @@
 {
   "name": "mko-custom",
-  "version": "Decotor for creating knockoutJs custom element",
-  "description": "0.0.1",
+  "version": "0.0.2",
+  "description": "Decorator for creating knockoutJs custom element",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/MaciejMisztal/mko-custom#readme",
   "devDependencies": {
-    "jspm": "^0.16.15"
+    "jspm": "^0.16.19"
   },
   "jspmNodeConversion": false,
   "jspm": {
-        "directories": {
+    "directories": {
       "lib": "src"
     },
     "dependencies": {
