@@ -32,10 +32,10 @@ System.config({
   map: {
     "knockout": "github:knockout/knockout@3.4.0",
     "text": "github:systemjs/plugin-text@0.0.4",
-    "ts": "github:frankwallis/plugin-typescript@2.6.0",
-    "typescript": "npm:typescript@1.7.5",
-    "github:frankwallis/plugin-typescript@2.6.0": {
-      "typescript": "npm:typescript@1.7.5"
+    "ts": "github:frankwallis/plugin-typescript@4.0.1",
+    "typescript": "npm:typescript@1.8.2",
+    "github:frankwallis/plugin-typescript@4.0.1": {
+      "typescript": "npm:typescript@1.8.2"
     }
   }
 });
