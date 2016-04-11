@@ -3,12 +3,13 @@
     "target": "es6",
     "noImplicitAny": false,
     "emitDecoratorMetadata": true,
-    "experimentalAsyncFunctions": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "declaration": true
   },
   "compileOnSave": false,
   "buildOnSave": false,
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "jspm_packages"
   ]
 }

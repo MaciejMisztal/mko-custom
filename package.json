@@ -1,6 +1,6 @@
 {
   "name": "mko-custom",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Decorator for creating knockoutJs custom element",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/MaciejMisztal/mko-custom#readme",
   "devDependencies": {
-    "jspm": "^0.16.29"
+    "jspm": "^0.16.33"
   },
   "jspmNodeConversion": false,
   "jspm": {
@@ -31,11 +31,11 @@
     },
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
-      "text": "github:systemjs/plugin-text@^0.0.4",
-      "ts": "github:frankwallis/plugin-typescript@^4.0.1"
+      "text": "github:systemjs/plugin-text@^0.0.7",
+      "ts": "github:frankwallis/plugin-typescript@^4.0.5"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@^1.8.2"
+      "typescript": "npm:typescript@^1.8.9"
     }
   }
 }

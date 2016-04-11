@@ -1,4 +1,4 @@
-import ko from "knockout";
+import * as ko from "knockout";
 
 /**
 * Decorator: Indicates that the decorated class will be a custom element.
@@ -17,13 +17,13 @@ export function mkoCustom(selectorName: string, templateContet: string) {
 /**
 * Decorator: Indicates that the decorated class will be a custom element.
 * @param selectorName The name of the custom element.
-* @param templateUrl URL location of template.
+* @param templateUrl URL location of template (with required prefix or suffix [requirejs('text!')/systemjs('!text')]).
 */
 
 export function mkoCustomTemplateLoader(selectorName: string, templateUrl: string) {
 	return function(target: Function) {
 		ko.components.register(selectorName, {
-			template :   {require: (templateUrl+'!text')},
+			template :   {require: (templateUrl)},
 			viewModel: target
 		})
 	};
