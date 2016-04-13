@@ -1,6 +1,6 @@
 {
   "name": "mko-custom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Decorator for creating knockoutJs custom element",
   "main": "index.js",
   "scripts": {
