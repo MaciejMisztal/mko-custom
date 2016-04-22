@@ -23,26 +23,26 @@
   "homepage": "https://github.com/MaciejMisztal/mko-custom#readme",
   "devDependencies": {
     "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
     "jspm": "^0.16.33",
     "karma": "^0.13.22",
     "karma-jasmine": "^0.3.8",
     "karma-jspm": "^2.1.0",
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-spec-reporter": "0.0.26",
-    "phantomjs-prebuilt": "^2.1.7"
+    "phantomjs-prebuilt": "^2.1.7",
+    "typescript": "^1.8.10"
   },
   "jspmNodeConversion": false,
   "jspm": {
-    "directories": {
-      "lib": "src"
-    },
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
       "text": "github:systemjs/plugin-text@^0.0.7",
       "ts": "github:frankwallis/plugin-typescript@^4.0.6"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@^1.8.9"
+      "typescript": "npm:typescript@^1.8.10"
     }
-  }
+  },
+  "dependencies": {}
 }

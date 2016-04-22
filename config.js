@@ -1,4 +1,5 @@
 System.config({
+  baseURL: "./",
   defaultJSExtensions: true,
   transpiler: "typescript",
   typescriptOptions: {
@@ -16,8 +17,18 @@ System.config({
 
   packages: {
     "src": {
-      "main": "index",
-      "defaultExtension": "js",
+      "defaultExtension": "ts",
+      "meta": {
+        "*.ts": {
+          "loader": "ts"
+        },
+        "*.js": {
+          "loader": "ts"
+        }
+      }
+    },
+    "spec": {
+      "defaultExtension": "ts",
       "meta": {
         "*.ts": {
           "loader": "ts"

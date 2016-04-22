@@ -1,5 +1,6 @@
 {
   "ambientDependencies": {
+    "jasmine": "registry:dt/jasmine#2.2.0+20160412134438",
     "knockout": "registry:dt/knockout#0.0.0+20160409112158"
   }
 }
