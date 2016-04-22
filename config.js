@@ -1,15 +1,7 @@
 System.config({
-  baseURL: "./",
+  baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "typescript",
-  typescriptOptions: {
-    "noImplicitAny": false,
-    "typeCheck": false,
-    "module": "system",
-    "target": "es6",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
-  },
+  transpiler: false,
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"

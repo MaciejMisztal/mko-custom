@@ -11,11 +11,11 @@ module.exports = function (config) {
 
         jspm: {
             loadFiles: [
-               'src/**/*.spec.ts',
-           //   'spec/env.spec.ts'        
+               'src/**/*.spec.ts'
             ],
             serveFiles: [
-                'src/**/*!(*.spec).ts',
+								'src/mko-custom.ts',
+								'src/mko-custom.d.ts',
                 'tsconfig.json'
             ]
         },
