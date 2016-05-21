@@ -38,7 +38,7 @@
     "dependencies": {
       "knockout": "github:knockout/knockout@^3.4.0",
       "text": "github:systemjs/plugin-text@^0.0.7",
-      "ts": "github:frankwallis/plugin-typescript@^4.0.6"
+      "ts": "github:frankwallis/plugin-typescript@^4.0.16"
     },
     "devDependencies": {
       "typescript": "npm:typescript@^1.8.10"
