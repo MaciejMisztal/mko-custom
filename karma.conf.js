@@ -15,6 +15,7 @@ module.exports = function (config) {
                            'src/mko-custom.ts',
                            'src/mko-custom.d.ts',
                            'src/spec/helper.ts',
+                           'src/spec/template.html',
                            'tsconfig.json'
                            ]
                            },
