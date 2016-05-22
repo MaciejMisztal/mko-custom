@@ -1,10 +1,10 @@
 {
   "name": "mko-custom",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Decorator for creating knockoutJs custom element",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
