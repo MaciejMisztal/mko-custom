@@ -6,12 +6,13 @@ import * as ko from "knockout";
 * @param templateContet Content (html) of element.
 */
 export function mkoCustom(selectorName: string, templateContet: string) {
-	return function(target: Function) {
-		ko.components.register(selectorName, {
-			template :  templateContet,
-			viewModel: target
-		})
-	};
+    return function(target: Function) {
+        if (!ko.components.isRegistered(selectorName))
+            ko.components.register(selectorName, {
+                template: templateContet,
+                viewModel: target
+            });
+    };
 };
 
 /**
@@ -21,10 +22,11 @@ export function mkoCustom(selectorName: string, templateContet: string) {
 */
 
 export function mkoCustomTemplateLoader(selectorName: string, templateUrl: string) {
-	return function(target: Function) {
-		ko.components.register(selectorName, {
-			template :   {require: (templateUrl)},
-			viewModel: target
-		})
-	};
+    if (!ko.components.isRegistered(selectorName))
+        return function(target: Function) {
+            ko.components.register(selectorName, {
+                template: { require: (templateUrl) },
+                viewModel: target
+            });
+        };
 };
